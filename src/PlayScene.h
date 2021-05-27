@@ -15,11 +15,12 @@ public:
 
 	// Scene LifeCycle Functions
 	virtual void draw() override;
-	void moveStarShip() const;
 	virtual void update() override;
 	virtual void clean() override;
 	virtual void handleEvents() override;
 	virtual void start() override;
+
+	//void moveStarShip() const;
 private:
 	// IMGUI Function
 	void GUI_Function();
